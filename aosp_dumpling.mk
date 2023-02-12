@@ -14,6 +14,7 @@ $(call inherit-product, device/oneplus/dumpling/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_NAME := aosp_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
